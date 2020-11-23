@@ -1,0 +1,46 @@
+#Libraries for DDDD
+name: env_rfm
+channels:
+  - conda-forge
+  - fastai
+  - pytorch
+  - plotly
+  - gcc
+dependencies:
+  - python>=3.6
+#  - python=3.5  
+  - pandas
+  - ipython
+  - numpy
+  - pyodbc
+  - jupyter
+#  - apyori
+  - matplotlib
+  - mlxtend
+  - seaborn
+  - plotly
+  - plotly_express==0.4.0
+  - xlrd >= 1.0.0
+  - openpyxl 
+  - fbprophet 
+  - scikit-learn
+  - tensorflow
+  - pyspark
+#  - conda
+#  - conda:
+#      - fbprophet  
+#  - pip
+#  - pip:
+#      - cufflinks
+#      - loguru
+
+
+#prefix: /Users/your_username/anaconda3/envs/your_env_name
+#	  conda create --name env_rfm python=3.7 -y
+#conda env create -f environment.yml
+# as soon as created, you got to activate:
+#conda activate env_rfm
+# then type in Jupyter Notebook:
+# Jupyter Notebook
+# if you want to update packages use env update:
+#conda env update -f "Desktop\environment.yml"
